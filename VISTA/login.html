@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css" /> 
+</head>
+<body style=" background-image: url('https://wallpaperaccess.com/full/2985860.jpg');">
+<form action="validate.php" method="POST">
+  <div class="imgcontainer">
+    <img src="https://cdn.icon-icons.com/icons2/1381/PNG/512/systemusers_94754.png" alt="User" class="user" width="300" height="300">
+  </div>
+
+  <div class="container">
+    <label><b>Usuario</b></label>
+    <input type="text" placeholder="Ingresar Usuario" name="nombredeusuario" required>
+
+    <label><b>Contraseña</b></label>
+    <input type="password" placeholder="Ingresar Contraseña" name="contraseña" required>
+        
+    <button type="submit" name="submit">Acceder</button>
+    <input type="checkbox" checked="checked"> Recordarme
+  </div>
+</form>
+
+</body>
+</html>
