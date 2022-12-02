@@ -1,5 +1,5 @@
 <?php
-include("C:\Apache24\htdocs\programas\crud_Usuarios\MODELO\config.php");
+include("config.php");
 include("session.php");
 
 $id = $_POST['id'];

@@ -1,6 +1,6 @@
 <?php
 	include("session.php");
-	include("C:\Apache24\htdocs\programas\crud_Usuarios\MODELO\config.php");
+	include("config.php");
 	$id = $_GET['id'];
 ?>
 <!DOCTYPE html>
